@@ -7,7 +7,7 @@ class gestion{
                 $nombreServidor="localhost";
                 $nombreDeUsuario="root";
                 $contrasenhaDeUsuario="root";
-                $nombreBaseDatos="satob_db";
+                $nombreBaseDatos="sapi_db";
                 $conn="";
                 $conexion = new connexion();
                 $conexion->setNombreServidor($nombreServidor);
